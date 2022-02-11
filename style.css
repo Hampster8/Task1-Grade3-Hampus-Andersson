@@ -18,20 +18,30 @@ h1 {
 }
 
 h2 {
-    font-size: 250%;
+    font-size: 200%;
 }
 
 th {
-    font-size: 150%;
+    font-size: 250%;
 }
 
 tr,td,th {
     background-color: rgba(128, 128, 128, 0.658);
     padding: 0.5rem;
+    font-size: 125%
 }
 
 tfoot {
     column-span: all;
+}
+
+caption {
+	font-size: 75px;
+	font-weight: 700;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: url('https://m.media-amazon.com/images/I/51Jv-3hJ0xL._AC_SX679_.jpg');
 }
 
 img {
@@ -44,6 +54,14 @@ img {
 .profilepicture {
     border-radius: 50%;
 }
+
+.rainbow-text {
+    font-size: 75px;
+	font-weight: 700;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
 video {
     border: 1px solid #ddd;
@@ -60,9 +78,8 @@ table, th, td {
 blockquote {
     background: rgba(128, 128, 128, 0.658);
     border-left: 10px solid #ccc;
-    margin: 1.5em 10px;
-    padding: 0.5em 10px;
-    quotes: "\201C""\201D""\2018""\2019";
+    margin-left: auto;
+    margin-right: auto;
 }
 
 blockquote p {
